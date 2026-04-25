@@ -1,0 +1,25 @@
+{{ $page := . }}
+<nav class="site-nav">
+  <div class="nav-container">
+    <a class="nav-logo" href="/">
+      <span>Zhao</span>
+      <strong>Laboratory</strong>
+    </a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle-input" aria-hidden="true">
+    <label for="nav-toggle" class="hamburger" aria-label="Toggle navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+    <ul class="nav-links">
+      {{ range .Site.Menus.main }}
+      <li>
+        <a href="{{ .URL }}"
+          class="{{ if eq .URL "/" }}{{ if $page.IsHome }}active{{ end }}{{ else }}{{ if hasPrefix $page.RelPermalink .URL }}active{{ end }}{{ end }}">
+          {{ .Name }}
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</nav>

@@ -1,0 +1,7 @@
+{{ with .Params.hero_image }}
+<section class="page-hero" style="background-image: url('{{ . }}')">
+  <div class="page-hero-content">
+    <h1>{{ $.Title }}</h1>
+  </div>
+</section>
+{{ end }}

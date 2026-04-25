@@ -1,0 +1,22 @@
+{{ define "main" }}
+{{ partial "hero.html" . }}
+<section class="publications-section">
+  <div class="container">
+    <h2>Publications</h2>
+    <div class="pub-list">
+      {{ range hugo.Data.publications }}
+      <article class="pub-card{{ if .featured }} featured{{ end }}">
+        {{ if .featured }}<span class="badge">Featured</span>{{ end }}
+        <p class="pub-title">{{ .title }}</p>
+        <p class="pub-authors">{{ .authors }}</p>
+        <p class="pub-meta"><em>{{ .journal }}</em>{{ if .year }} &middot; {{ .year }}{{ end }}</p>
+        <div class="pub-links">
+          {{ if .doi }}<a href="https://doi.org/{{ .doi }}" target="_blank" rel="noopener">DOI ↗</a>{{ end }}
+          {{ if .pmcid }}<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/{{ .pmcid }}" target="_blank" rel="noopener">PMC ↗</a>{{ end }}
+        </div>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

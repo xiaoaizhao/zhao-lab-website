@@ -1,0 +1,16 @@
+{{ define "main" }}
+<section class="home-hero" style="background-image: url('{{ .Params.hero_image }}')">
+  <div class="home-hero-content">
+    <h1>Functional Investigation Of Lipid Biology In Aging And Age-Related Diseases</h1>
+    <div class="hero-cta">
+      <a href="/research/" class="btn btn-primary">Explore Our Research</a>
+      <a href="/team/" class="btn btn-secondary">Meet the Team</a>
+    </div>
+  </div>
+</section>
+<section class="home-intro">
+  <div class="container">
+    {{ .Content }}
+  </div>
+</section>
+{{ end }}

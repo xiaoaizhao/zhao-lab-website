@@ -1,0 +1,46 @@
+baseURL = 'https://www.zhaolabyale.com/'
+languageCode = 'en-us'
+title = 'Zhao Laboratory'
+
+[taxonomies]
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[pagination]
+  pagerSize = 100
+
+[params]
+  twitter        = "https://x.com/xiaoaizh"
+  twitter_handle = "@xiaoaizh"
+  address        = "Sterling Hall of Medicine, Yale School of Medicine"
+  tagline        = "Yale School of Medicine · Zhao Lab"
+
+[[menus.main]]
+  name   = 'Home'
+  url    = '/'
+  weight = 1
+[[menus.main]]
+  name   = 'Research'
+  url    = '/research/'
+  weight = 2
+[[menus.main]]
+  name   = 'Publications'
+  url    = '/publications/'
+  weight = 3
+[[menus.main]]
+  name   = 'Team'
+  url    = '/team/'
+  weight = 4
+[[menus.main]]
+  name   = 'Join'
+  url    = '/join/'
+  weight = 5
+[[menus.main]]
+  name   = 'Gallery'
+  url    = '/gallery/'
+  weight = 6
+[[menus.main]]
+  name   = 'Contact'
+  url    = '/contact/'
+  weight = 7

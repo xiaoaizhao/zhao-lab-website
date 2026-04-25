@@ -1,0 +1,30 @@
+{{ define "main" }}
+{{ partial "hero.html" . }}
+<section class="team-section">
+  <div class="container">
+    <h2>Team</h2>
+    <div class="team-grid">
+      {{ range hugo.Data.team }}
+      <article class="member-card">
+        <div class="member-photo">
+          <img src="{{ .photo }}" alt="{{ .name }}" loading="lazy">
+        </div>
+        <div class="member-info">
+          <h3>{{ .name }}</h3>
+          <p class="member-role">{{ .role }}</p>
+          <p class="member-bio">{{ .bio }}</p>
+          {{ with .research }}<p class="member-research"><strong>Research:</strong> {{ . }}</p>{{ end }}
+          {{ with .interests }}<p class="member-interests"><strong>Interests:</strong> {{ . }}</p>{{ end }}
+        </div>
+      </article>
+      {{ end }}
+      <article class="member-card hiring">
+        <div class="hiring-icon">+</div>
+        <h3>You?</h3>
+        <p>We are actively recruiting kind, passionate, and motivated researchers. Come do exciting science with us.</p>
+        <a href="/join/" class="btn btn-primary">See Open Positions</a>
+      </article>
+    </div>
+  </div>
+</section>
+{{ end }}

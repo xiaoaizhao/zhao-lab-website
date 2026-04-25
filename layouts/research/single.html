@@ -1,0 +1,24 @@
+{{ define "main" }}
+{{ partial "hero.html" . }}
+<section class="research-intro">
+  <div class="container">
+    <h2>Why study lipids?</h2>
+    <div class="research-text">{{ .Content }}</div>
+  </div>
+</section>
+<section class="research-areas">
+  <div class="container">
+    {{ range $i, $area := .Params.areas }}
+    <div class="research-area{{ if (mod $i 2) }} reverse{{ end }}">
+      <div class="area-image">
+        <img src="{{ $area.image }}" alt="{{ $area.heading }}" loading="lazy">
+      </div>
+      <div class="area-text">
+        <h3>{{ $area.heading }}</h3>
+        <p>{{ $area.text }}</p>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
