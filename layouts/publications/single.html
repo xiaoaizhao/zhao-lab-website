@@ -8,7 +8,7 @@
       <article class="pub-card{{ if .featured }} featured{{ end }}">
         {{ if .featured }}<span class="badge">Featured</span>{{ end }}
         <p class="pub-title">{{ .title }}</p>
-        <p class="pub-authors">{{ .authors }}</p>
+        <p class="pub-authors">{{ .authors | markdownify | replaceRE "</?p>\n?" "" | safeHTML }}</p>
         <p class="pub-meta"><em>{{ .journal }}</em>{{ if .year }} &middot; {{ .year }}{{ end }}</p>
         <div class="pub-links">
           {{ if .doi }}<a href="https://doi.org/{{ .doi }}" target="_blank" rel="noopener">DOI ↗</a>{{ end }}
