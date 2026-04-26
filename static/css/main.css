@@ -1,7 +1,7 @@
 /* ─── Variables ──────────────────────────────────────────── */
 :root {
   --navy:     #032033;
-  --accent:   #6C8EAD;
+  --accent:   #4D90CB;
   --gray:     #6b7280;
   --dark:     #1f2937;
   --white:    #ffffff;
@@ -174,9 +174,9 @@ ul { list-style: none; }
   color: var(--navy);
 }
 .btn-primary:hover {
-  background: #8AAEC5;
+  background: #78B0DE;
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(108,142,173,0.40);
+  box-shadow: 0 6px 20px rgba(77,144,203,0.40);
 }
 .btn-secondary {
   border: 2px solid var(--accent);
@@ -233,6 +233,7 @@ ul { list-style: none; }
   font-size: clamp(1rem, 2vw, 1.2rem);
   line-height: 1.85;
   color: rgba(255,255,255,0.88);
+  text-align: justify;
 }
 
 /* ─── Page Hero (inner pages) ────────────────────────────── */
@@ -455,7 +456,7 @@ ul { list-style: none; }
 /* Hiring card */
 .member-card.hiring {
   border: 2px dashed var(--accent);
-  background: rgba(108,142,173,0.04);
+  background: rgba(77,144,203,0.04);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -468,8 +469,8 @@ ul { list-style: none; }
 }
 .member-card.hiring:hover {
   transform: translateY(-4px);
-  background: rgba(108,142,173,0.09);
-  box-shadow: 0 6px 24px rgba(108,142,173,0.18);
+  background: rgba(77,144,203,0.09);
+  box-shadow: 0 6px 24px rgba(77,144,203,0.18);
   border-style: solid;
 }
 .hiring-icon {
@@ -673,7 +674,7 @@ ul { list-style: none; }
 }
 
 .qualifications {
-  background: rgba(108,142,173,0.1);
+  background: rgba(77,144,203,0.1);
   border-radius: 6px;
   padding: 0.875rem 1.25rem;
   font-size: 0.9rem;
