@@ -1,7 +1,7 @@
 /* ─── Variables ──────────────────────────────────────────── */
 :root {
   --navy:     #032033;
-  --amber:    #C8922A;
+  --accent:   #3D8B87;
   --gray:     #6b7280;
   --dark:     #1f2937;
   --white:    #ffffff;
@@ -107,8 +107,8 @@ ul { list-style: none; }
 }
 .nav-links a:hover,
 .nav-links a.active {
-  color: var(--amber);
-  border-bottom-color: var(--amber);
+  color: var(--accent);
+  border-bottom-color: var(--accent);
 }
 
 /* ─── Mobile nav ─────────────────────────────────────────── */
@@ -137,7 +137,7 @@ ul { list-style: none; }
   }
   .nav-links li a.active,
   .nav-links li a:hover {
-    border-left-color: var(--amber);
+    border-left-color: var(--accent);
     background: rgba(255,255,255,0.04);
   }
 
@@ -170,20 +170,20 @@ ul { list-style: none; }
   justify-content: center;
 }
 .btn-primary {
-  background: var(--amber);
+  background: var(--accent);
   color: var(--navy);
 }
 .btn-primary:hover {
-  background: #D9A43A;
+  background: #4FA8A4;
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(200,146,42,0.35);
+  box-shadow: 0 6px 20px rgba(61,139,135,0.40);
 }
 .btn-secondary {
-  border: 2px solid var(--amber);
-  color: var(--amber);
+  border: 2px solid var(--accent);
+  color: var(--accent);
 }
 .btn-secondary:hover {
-  background: var(--amber);
+  background: var(--accent);
   color: var(--navy);
   transform: translateY(-2px);
 }
@@ -202,15 +202,16 @@ ul { list-style: none; }
   position: relative;
   z-index: 1;
   padding: 4rem 1.5rem;
-  max-width: min(680px, calc(100% - 3rem));
-  margin-left: max(1.5rem, calc((100vw - var(--max-width)) / 2 + 1.5rem));
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
 }
 
 .home-hero h1 {
   font-family: var(--font-head);
   font-size: clamp(1.75rem, 4vw, 3.25rem);
   font-weight: 600;
-  color: var(--amber);
+  color: var(--accent);
   line-height: 1.25;
   letter-spacing: 0.015em;
   text-transform: capitalize;
@@ -256,7 +257,7 @@ ul { list-style: none; }
   font-family: var(--font-head);
   font-size: clamp(2rem, 4vw, 3rem);
   font-weight: 700;
-  color: var(--amber);
+  color: var(--accent);
   letter-spacing: 0.01em;
 }
 
@@ -333,11 +334,11 @@ ul { list-style: none; }
   border-left: 3px solid transparent;
 }
 .pub-card:last-child { border-bottom: none; }
-.pub-card.featured { border-left-color: var(--amber); }
+.pub-card.featured { border-left-color: var(--accent); }
 
 .badge {
   display: inline-block;
-  background: var(--amber);
+  background: var(--accent);
   color: var(--navy);
   font-family: var(--font-head);
   font-size: 0.65rem;
@@ -372,8 +373,8 @@ ul { list-style: none; }
   font-family: var(--font-head);
   font-size: 0.75rem;
   font-weight: 600;
-  color: var(--amber);
-  border: 1.5px solid var(--amber);
+  color: var(--accent);
+  border: 1.5px solid var(--accent);
   padding: 0.25rem 0.75rem;
   border-radius: 3px;
   min-height: 30px;
@@ -381,7 +382,7 @@ ul { list-style: none; }
   align-items: center;
   transition: all 0.18s;
 }
-.pub-links a:hover { background: var(--amber); color: var(--navy); }
+.pub-links a:hover { background: var(--accent); color: var(--navy); }
 
 /* ─── Team ───────────────────────────────────────────────── */
 .team-section {
@@ -438,7 +439,7 @@ ul { list-style: none; }
   font-family: var(--font-head);
   font-size: 0.78rem;
   font-weight: 600;
-  color: var(--amber);
+  color: var(--accent);
   text-transform: uppercase;
   letter-spacing: 0.06em;
   margin-bottom: 0.85rem;
@@ -454,8 +455,8 @@ ul { list-style: none; }
 
 /* Hiring card */
 .member-card.hiring {
-  border: 2px dashed var(--amber);
-  background: rgba(200,146,42,0.04);
+  border: 2px dashed var(--accent);
+  background: rgba(61,139,135,0.04);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -468,18 +469,18 @@ ul { list-style: none; }
 }
 .member-card.hiring:hover {
   transform: translateY(-4px);
-  background: rgba(200,146,42,0.09);
-  box-shadow: 0 6px 24px rgba(200,146,42,0.18);
+  background: rgba(61,139,135,0.09);
+  box-shadow: 0 6px 24px rgba(61,139,135,0.18);
   border-style: solid;
 }
 .hiring-icon {
   font-size: 2.25rem;
   font-weight: 300;
-  color: var(--amber);
+  color: var(--accent);
   line-height: 1;
   width: 56px;
   height: 56px;
-  border: 2px solid var(--amber);
+  border: 2px solid var(--accent);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -488,7 +489,7 @@ ul { list-style: none; }
 }
 .member-card.hiring h3 {
   font-size: 1.3rem;
-  color: var(--amber);
+  color: var(--accent);
 }
 .member-card.hiring p {
   font-size: 0.9rem;
@@ -509,7 +510,7 @@ ul { list-style: none; }
 .event-title {
   font-family: var(--font-head);
   font-size: 1.3rem;
-  color: var(--amber);
+  color: var(--accent);
   margin-bottom: 0.5rem;
   display: flex;
   align-items: baseline;
@@ -608,7 +609,7 @@ ul { list-style: none; }
   align-items: center;
   justify-content: center;
 }
-.lightbox-close:hover { color: var(--amber); background: rgba(255,255,255,0.1); }
+.lightbox-close:hover { color: var(--accent); background: rgba(255,255,255,0.1); }
 
 /* ─── Join ───────────────────────────────────────────────── */
 .join-section {
@@ -630,7 +631,7 @@ ul { list-style: none; }
 
 .positions-intro {
   background: var(--bg);
-  border-left: 3px solid var(--amber);
+  border-left: 3px solid var(--accent);
   border-radius: 0 8px 8px 0;
   padding: 1.5rem 2rem;
   margin-bottom: 3rem;
@@ -673,7 +674,7 @@ ul { list-style: none; }
 }
 
 .qualifications {
-  background: rgba(200,146,42,0.1);
+  background: rgba(61,139,135,0.1);
   border-radius: 6px;
   padding: 0.875rem 1.25rem;
   font-size: 0.9rem;
@@ -719,13 +720,13 @@ ul { list-style: none; }
   font-size: 0.97rem;
   transition: color 0.2s;
 }
-.contact-address a:hover { color: var(--amber); }
+.contact-address a:hover { color: var(--accent); }
 
 .twitter-link {
   font-family: var(--font-head);
   font-weight: 600;
   font-size: 0.97rem;
-  color: var(--amber);
+  color: var(--accent);
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
@@ -745,7 +746,7 @@ ul { list-style: none; }
   font-weight: 600;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--amber);
+  color: var(--accent);
   margin-bottom: 0.45rem;
 }
 .footer-copy {
