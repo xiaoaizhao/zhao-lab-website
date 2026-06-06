@@ -1,63 +1,79 @@
+- title: "RISOP, a reference-assisted approach for enhanced identification of oxidized phospholipids"
+  authors: "Chen Z, Erickson A, Ito N, **Zhao X (corresponding author)**"
+  journal: "bioRxiv"
+  year: 2026
+  doi: "10.64898/2026.06.01.728773"
+  pdf: "RISOP.pdf"
+  featured: true
+
+- title: "Time for lipid cell biology"
+  authors: "Chen XW, Don AS, Fedorova M, Harayama T, Krahmer N, Nagata S, Narayan P, Nicholas D, Nowinski SM, Saheki Y, Semenkovich CF, **Zhao X**, Zou Y"
+  journal: "Nature Cell Biology"
+  year: 2025
+  doi: "10.1038/s41556-025-01609-w"
+  pdf: "NCB_viewpoint.pdf"
+  featured: true
+
 - title: "Lipidomic profiling reveals age-dependent changes in complex plasma membrane lipids that regulate neural stem cell aging"
-  authors: "Zhao X, Yan X, Contrepois K, Vallania F, Ellenberge M, Kashiwagi CM, Gagnon SD, Siebrand CJ, Cabruja M, Traber GM, McKay A, Hornburg D, Khatri P, Snyder MP, Zare RN, Brunet A"
+  authors: "**Zhao X**, Yan X, Contrepois K, Vallania F, Ellenberge M, Kashiwagi CM, Gagnon SD, Siebrand CJ, Cabruja M, Traber GM, McKay A, Hornburg D, Khatri P, Snyder MP, Zare RN, Brunet A"
   journal: "bioRxiv"
   year: 2022
   doi: "10.1101/2022.08.18.503095"
-  pmcid: ""
+  pdf: "NSC_aging_lipidomics.pdf"
   featured: true
 
 - title: "Cell-type-specific metabolic profiling achieved by combining Desorption Electrospray Ionization Mass Spectrometry Imaging and immunofluorescence staining"
-  authors: "Yan X*, Zhao X* (equal contribution), Zhou Z, McKay A, Brunet A, Zare RN"
+  authors: "Yan X#, **Zhao X# (equal contribution)**, Zhou Z, McKay A, Brunet A, Zare RN"
   journal: "Analytical Chemistry"
   year: 2020
-  doi: ""
-  pmcid: "PMC8782277"
-  featured: true
+  doi: "https://doi.org/10.1021/acs.analchem.0c02519"
+  pdf: "DESI.pdf"
+  featured: false
 
 - title: "SLC1A5 glutamine transporter is a target of MYC and mediates reduced mTORC1 signaling and increased fatty acid oxidation in long-lived Myc hypomorphic mice"
-  authors: "Zhao X, Petrashen AP, Sanders JA, Peterson AL, Sedivy JM"
+  authors: "**Zhao X**, Petrashen AP, Sanders JA, Peterson AL, Sedivy JM"
   journal: "Aging Cell"
   year: 2019
-  doi: ""
-  pmcid: "PMC6516164"
-  featured: true
+  doi: "https://doi.org/10.1111/acel.12947"
+  pdf: "SLC1A5.pdf"
+  featured: false
 
 - title: "Reduced expression of MYC increases longevity and enhances healthspan"
-  authors: "Hofmann JW*, Zhao X* (equal contribution), De Cecco M, Peterson AL, Pagliaroli L, Manivannan J, Hubbard GB, Ikeno Y, Zhang Y, Feng B, Li X, Serre T, Qi W, Van Remmen H, Miller RA, Bath KG, de Cabo R, Xu H, Neretti N, Sedivy JM"
+  authors: "Hofmann JW#, **Zhao X# (equal contribution)**, De Cecco M, Peterson AL, Pagliaroli L, Manivannan J, Hubbard GB, Ikeno Y, Zhang Y, Feng B, Li X, Serre T, Qi W, Van Remmen H, Miller RA, Bath KG, de Cabo R, Xu H, Neretti N, Sedivy JM"
   journal: "Cell"
   year: 2015
-  doi: ""
-  pmcid: "PMC4624921"
-  featured: true
+  doi: "https://doi.org/10.1016/j.cell.2014.12.016"
+  pdf: "Myc_longevity.pdf"
+  featured: false
 
 - title: "Lysosome activation clears aggregates and enhances quiescent neural stem cell activation during aging"
-  authors: "Leeman DS, Hebestreit K, Ruetz T, Webb AE, McKay A, Pollina EA, Dulken BW, Zhao X, Yeo RW, Ho TT, Mahmoudi S, Devarajan K, Passegué E, Rando TA, Frydman J, Brunet A"
+  authors: "Leeman DS, Hebestreit K, Ruetz T, Webb AE, McKay A, Pollina EA, Dulken BW, **Zhao X**, Yeo RW, Ho TT, Mahmoudi S, Devarajan K, Passegué E, Rando TA, Frydman J, Brunet A"
   journal: "Science"
   year: 2018
-  doi: ""
-  pmcid: "PMC5915358"
+  doi: "https://doi.org/10.1126/science.aag3048"
+  pdf: "Leeman_science.pdf"
   featured: false
 
 - title: "Death by transposition – the enemy within?"
-  authors: "Sedivy JM, Kreiling JA, Neretti N, De Cecco M, Criscione SW, Hofmann JW, Zhao X, Ito T, Peterson AL"
+  authors: "Sedivy JM, Kreiling JA, Neretti N, De Cecco M, Criscione SW, Hofmann JW, **Zhao X**, Ito T, Peterson AL"
   journal: "Bioessays"
   year: 2013
   doi: "10.1002/bies.201300097"
-  pmcid: "PMC3922893"
+  pdf: "Sedivy_review.pdf"
   featured: false
 
 - title: "Nuclear protein accumulation in cellular senescence and organismal aging revealed with a novel single-cell resolution fluorescence microscopy assay"
-  authors: "De Cecco M, Jeyapalan J, Zhao X, Tamamori-Adachi M, Sedivy JM"
+  authors: "De Cecco M, Jeyapalan J, **Zhao X**, Tamamori-Adachi M, Sedivy JM"
   journal: "Aging (Albany NY)"
   year: 2011
   doi: "10.18632/aging.100372"
-  pmcid: "PMC3229972"
+  pdf: "Nuclear_protein.pdf"
   featured: false
 
 - title: "Cytotoxic benzo[j]fluoranthene metabolites from Hypoxylon truncatum IFB-18, an endophyte of Artemisia annua"
-  authors: "Gu W, Ge HM, Song YC, Ding H, Zhu HL, Zhao X, Tan RX"
+  authors: "Gu W, Ge HM, Song YC, Ding H, Zhu HL, **Zhao X**, Tan RX"
   journal: "Journal of Natural Products"
   year: 2007
   doi: "10.1021/np0604127"
-  pmcid: ""
+  pdf: "cytotoxic-benzo.pdf"
   featured: false
