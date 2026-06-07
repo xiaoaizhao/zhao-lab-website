@@ -26,7 +26,7 @@
   authors: "Yan X#, **Zhao X# (equal contribution)**, Zhou Z, McKay A, Brunet A, Zare RN"
   journal: "Analytical Chemistry"
   year: 2020
-  doi: "https://doi.org/10.1021/acs.analchem.0c02519"
+  doi: "10.1021/acs.analchem.0c02519"
   pdf: "DESI.pdf"
   featured: false
 
@@ -34,7 +34,7 @@
   authors: "**Zhao X**, Petrashen AP, Sanders JA, Peterson AL, Sedivy JM"
   journal: "Aging Cell"
   year: 2019
-  doi: "https://doi.org/10.1111/acel.12947"
+  doi: "10.1111/acel.12947"
   pdf: "SLC1A5.pdf"
   featured: false
 
@@ -42,7 +42,7 @@
   authors: "Hofmann JW#, **Zhao X# (equal contribution)**, De Cecco M, Peterson AL, Pagliaroli L, Manivannan J, Hubbard GB, Ikeno Y, Zhang Y, Feng B, Li X, Serre T, Qi W, Van Remmen H, Miller RA, Bath KG, de Cabo R, Xu H, Neretti N, Sedivy JM"
   journal: "Cell"
   year: 2015
-  doi: "https://doi.org/10.1016/j.cell.2014.12.016"
+  doi: "10.1016/j.cell.2014.12.016"
   pdf: "Myc_longevity.pdf"
   featured: false
 
@@ -50,7 +50,7 @@
   authors: "Leeman DS, Hebestreit K, Ruetz T, Webb AE, McKay A, Pollina EA, Dulken BW, **Zhao X**, Yeo RW, Ho TT, Mahmoudi S, Devarajan K, Passegué E, Rando TA, Frydman J, Brunet A"
   journal: "Science"
   year: 2018
-  doi: "https://doi.org/10.1126/science.aag3048"
+  doi: "10.1126/science.aag3048"
   pdf: "Leeman_science.pdf"
   featured: false
 
