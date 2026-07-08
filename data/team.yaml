@@ -10,6 +10,9 @@
   bio: "I'm originally from San Diego and completed my biochemistry degree at Vassar College. I previously worked in an organic chemistry lab researching metal-free synthesis and carbon-bond fragmentation."
   research: "Functional regulation of complex lipid composition during neural stem cell aging"
   interests: "volleyball and golf — I'm also currently watching One Piece"
+  alumni: true
+  years: "2024–2026"
+  current_position: ""
 
 - name: "Zixing (Josh) Chen"
   role: "Postdoctoral Associate"
@@ -24,3 +27,10 @@
   bio: "I graduated from New York University with a degree in Neural Science. I previously researched protein synthesis in memory consolidation, systemic inflammation effects on cognition, and regulatory mechanisms of neuropsychiatric disorders in iPSC-derived neurons."
   research: "Molecular mechanisms, regulatory pathways, and genetic and environmental factors influencing cellular aging; lipidomic changes"
   interests: "baking, language learning, and exploring cafes"
+
+- name: "Xusheng Hao"
+  role: "Postdoctoral Associate"
+  photo: "/images/team/xusheng-hao.jpg"
+  bio: "I completed my doctoral studies and earned my PhD at the Institute of Genetics and Developmental Biology, Chinese Academy of Sciences in Beijing, where I investigated how host genetics and microbial interactions influence lifespan and physiological aging."
+  research: "Molecular mechanisms of aging, organ-specific lipidomic dynamics during aging, and systemic metabolic crosstalk between tissues during the aging process"
+  interests: "singing, cooking, photography and playing Sichuan Mahjong"

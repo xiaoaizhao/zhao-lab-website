@@ -498,6 +498,132 @@ ul { list-style: none; }
   max-width: 220px;
 }
 
+/* ─── Alumni ─────────────────────────────────────────────── */
+.alumni-section {
+  margin-top: 3.5rem;
+}
+.alumni-section h2 {
+  font-family: var(--font-head);
+  font-size: 1.85rem;
+  color: var(--navy);
+  margin-bottom: 1.5rem;
+}
+.alumni-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.alumni-item {
+  border-bottom: 1px solid var(--border);
+}
+.alumni-item:first-child {
+  border-top: 1px solid var(--border);
+}
+.alumni-summary {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  padding: 0.9rem 0.25rem;
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+}
+.alumni-summary::-webkit-details-marker { display: none; }
+.alumni-summary::before {
+  content: "›";
+  font-size: 1.1rem;
+  color: var(--accent);
+  transition: transform 0.2s ease;
+  display: inline-block;
+  width: 1rem;
+  flex-shrink: 0;
+}
+.alumni-item[open] > .alumni-summary::before {
+  transform: rotate(90deg);
+}
+.alumni-name {
+  font-family: var(--font-head);
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--navy);
+}
+.alumni-role {
+  font-family: var(--font-head);
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.alumni-years {
+  font-size: 0.82rem;
+  color: var(--gray);
+}
+.alumni-current {
+  font-size: 0.82rem;
+  color: var(--gray);
+  font-style: italic;
+}
+.rotation-heading {
+  font-family: var(--font-head);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--navy);
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+.rotation-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.rotation-list li {
+  padding: 0.45rem 0.25rem;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  gap: 0.75rem;
+  align-items: baseline;
+  font-size: 0.9rem;
+}
+.rotation-list li:first-child {
+  border-top: 1px solid var(--border);
+}
+.rotation-name {
+  font-weight: 600;
+  color: var(--navy);
+}
+.rotation-semester {
+  color: var(--gray);
+  font-size: 0.82rem;
+}
+.alumni-card {
+  display: flex;
+  gap: 1.25rem;
+  padding: 0.75rem 0.25rem 1.25rem 1.75rem;
+  align-items: flex-start;
+}
+.alumni-photo {
+  flex-shrink: 0;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid var(--border);
+}
+.alumni-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+.alumni-info {
+  flex: 1;
+}
+@media (max-width: 480px) {
+  .alumni-card { flex-direction: column; }
+  .alumni-summary { flex-wrap: wrap; }
+}
+
 /* ─── Gallery ────────────────────────────────────────────── */
 .gallery-section {
   padding: var(--section-v) 1.5rem;
